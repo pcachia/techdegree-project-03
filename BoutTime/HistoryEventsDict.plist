@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>events01</key>
+	<dict>
+		<key>historyEventFirst</key>
+		<string>George Washington</string>
+		<key>historyEventSecond</key>
+		<string>Thomas Jefferson</string>
+		<key>historyEventThird</key>
+		<string>Abraham Lincoln</string>
+		<key>historyEventFourth</key>
+		<string>Lyndon B. Johnson</string>
+	</dict>
+	<key>events02</key>
+	<dict>
+		<key>historyEventFirst</key>
+		<string>George H. W. Bush</string>
+		<key>historyEventSecond</key>
+		<string>Bill Clinton</string>
+		<key>historyEventThird</key>
+		<string>George W. Bush</string>
+		<key>historyEventFourth</key>
+		<string>Barack Obama</string>
+	</dict>
+	<key>events03</key>
+	<dict>
+		<key>historyEventFirst</key>
+		<string>The Simpsons</string>
+		<key>historyEventSecond</key>
+		<string>Beavis &amp; Butthead</string>
+		<key>historyEventThird</key>
+		<string>Family Guy</string>
+		<key>historyEventFourth</key>
+		<string>Rick &amp; Morty</string>
+	</dict>
+	<key>events04</key>
+	<dict>
+		<key>historyEventFirst</key>
+		<string>The Beatles</string>
+		<key>historyEventSecond</key>
+		<string>Jackson 5</string>
+		<key>historyEventThird</key>
+		<string>Michael Jackson</string>
+		<key>historyEventFourth</key>
+		<string>New Kids on the Block</string>
+	</dict>
+	<key>events05</key>
+	<dict>
+		<key>historyEventFirst</key>
+		<string>John Glenn orbits Earth</string>
+		<key>historyEventSecond</key>
+		<string>Neil Armstrong and Edwin &quot;Buzz&quot; Aldrin walks the moon</string>
+		<key>historyEventThird</key>
+		<string>Skylab I, first U.S. orbiting laboratory, launched.</string>
+		<key>historyEventFourth</key>
+		<string>Sally Ride becomes first American woman in space</string>
+	</dict>
+	<key>events06</key>
+	<dict>
+		<key>historyEventFirst</key>
+		<string>Spanish–American War</string>
+		<key>historyEventSecond</key>
+		<string>Philippine–American War</string>
+		<key>historyEventThird</key>
+		<string>Moro Rebellion</string>
+		<key>historyEventFourth</key>
+		<string>Boxer Rebellion</string>
+	</dict>
+	<key>events07</key>
+	<dict>
+		<key>historyEventFirst</key>
+		<string>Gulf War</string>
+		<key>historyEventSecond</key>
+		<string>Bosnian War</string>
+		<key>historyEventThird</key>
+		<string>Intervention in Haiti</string>
+		<key>historyEventFourth</key>
+		<string>Kosovo War</string>
+	</dict>
+	<key>events08</key>
+	<dict>
+		<key>historyEventFirst</key>
+		<string>Crazy Snake Rebellion</string>
+		<key>historyEventSecond</key>
+		<string>Border War</string>
+		<key>historyEventThird</key>
+		<string>Negro Rebellion</string>
+		<key>historyEventFourth</key>
+		<string>Occupation of Nicaragua</string>
+	</dict>
+	<key>events09</key>
+	<dict>
+		<key>historyEventFirst</key>
+		<string>Russian Civil War</string>
+		<key>historyEventSecond</key>
+		<string>World War II</string>
+		<key>historyEventThird</key>
+		<string>Korean War</string>
+		<key>historyEventFourth</key>
+		<string>Laotian Civil War </string>
+	</dict>
+	<key>events10</key>
+	<dict>
+		<key>historyEventFirst</key>
+		<string>Rocky II</string>
+		<key>historyEventSecond</key>
+		<string>Rocky III</string>
+		<key>historyEventThird</key>
+		<string>Rambo: First Blood </string>
+		<key>historyEventFourth</key>
+		<string>Rocky IV</string>
+	</dict>
+	<key>events11</key>
+	<dict>
+		<key>historyEventFirst</key>
+		<string>Rocky Marciano</string>
+		<key>historyEventSecond</key>
+		<string>Sugar Ray Robinson</string>
+		<key>historyEventThird</key>
+		<string>Mike Tyson</string>
+		<key>historyEventFourth</key>
+		<string>Floyd May Weather Jr</string>
+	</dict>
+	<key>events12</key>
+	<dict>
+		<key>historyEventFirst</key>
+		<string>One</string>
+		<key>historyEventSecond</key>
+		<string>Two</string>
+		<key>historyEventThird</key>
+		<string>Three</string>
+		<key>historyEventFourth</key>
+		<string>Four</string>
+	</dict>
+	<key>events13</key>
+	<dict>
+		<key>historyEventFirst</key>
+		<string>One</string>
+		<key>historyEventSecond</key>
+		<string>Two</string>
+		<key>historyEventThird</key>
+		<string>Three</string>
+		<key>historyEventFourth</key>
+		<string>Four</string>
+	</dict>
+	<key>events14</key>
+	<dict>
+		<key>historyEventFirst</key>
+		<string>One</string>
+		<key>historyEventSecond</key>
+		<string>Two</string>
+		<key>historyEventThird</key>
+		<string>Three</string>
+		<key>historyEventFourth</key>
+		<string>Four</string>
+	</dict>
+	<key>events15</key>
+	<dict>
+		<key>historyEventFirst</key>
+		<string>One</string>
+		<key>historyEventSecond</key>
+		<string>Two</string>
+		<key>historyEventThird</key>
+		<string>Three</string>
+		<key>historyEventFourth</key>
+		<string>Four</string>
+	</dict>
+	<key>events16</key>
+	<dict>
+		<key>historyEventFirst</key>
+		<string>One</string>
+		<key>historyEventSecond</key>
+		<string>Two</string>
+		<key>historyEventThird</key>
+		<string>Three</string>
+		<key>historyEventFourth</key>
+		<string>Four</string>
+	</dict>
+	<key>events17</key>
+	<dict>
+		<key>historyEventFirst</key>
+		<string>One</string>
+		<key>historyEventSecond</key>
+		<string>Two</string>
+		<key>historyEventThird</key>
+		<string>Three</string>
+		<key>historyEventFourth</key>
+		<string>Four</string>
+	</dict>
+	<key>events18</key>
+	<dict>
+		<key>historyEventFirst</key>
+		<string>One</string>
+		<key>historyEventSecond</key>
+		<string>Two</string>
+		<key>historyEventThird</key>
+		<string>Three</string>
+		<key>historyEventFourth</key>
+		<string>Four</string>
+	</dict>
+	<key>events19</key>
+	<dict>
+		<key>historyEventFirst</key>
+		<string>One</string>
+		<key>historyEventSecond</key>
+		<string>Two</string>
+		<key>historyEventThird</key>
+		<string>Three</string>
+		<key>historyEventFourth</key>
+		<string>Four</string>
+	</dict>
+	<key>events20</key>
+	<dict>
+		<key>historyEventFirst</key>
+		<string>One</string>
+		<key>historyEventSecond</key>
+		<string>Two</string>
+		<key>historyEventThird</key>
+		<string>Three</string>
+		<key>historyEventFourth</key>
+		<string>Four</string>
+	</dict>
+	<key>events21</key>
+	<dict>
+		<key>historyEventFirst</key>
+		<string>One</string>
+		<key>historyEventSecond</key>
+		<string>Two</string>
+		<key>historyEventThird</key>
+		<string>Three</string>
+		<key>historyEventFourth</key>
+		<string>Four</string>
+	</dict>
+	<key>events22</key>
+	<dict>
+		<key>historyEventFirst</key>
+		<string>One</string>
+		<key>historyEventSecond</key>
+		<string>Two</string>
+		<key>historyEventThird</key>
+		<string>Three</string>
+		<key>historyEventFourth</key>
+		<string>Four</string>
+	</dict>
+	<key>events23</key>
+	<dict>
+		<key>historyEventFirst</key>
+		<string>One</string>
+		<key>historyEventSecond</key>
+		<string>Two</string>
+		<key>historyEventThird</key>
+		<string>Three</string>
+		<key>historyEventFourth</key>
+		<string>Four</string>
+	</dict>
+	<key>events24</key>
+	<dict>
+		<key>historyEventFirst</key>
+		<string>One</string>
+		<key>historyEventSecond</key>
+		<string>Two</string>
+		<key>historyEventThird</key>
+		<string>Three</string>
+		<key>historyEventFourth</key>
+		<string>Four</string>
+	</dict>
+	<key>events25</key>
+	<dict>
+		<key>historyEventFirst</key>
+		<string>One</string>
+		<key>historyEventSecond</key>
+		<string>Two</string>
+		<key>historyEventThird</key>
+		<string>Three</string>
+		<key>historyEventFourth</key>
+		<string>Four</string>
+	</dict>
+	<key>events26</key>
+	<dict>
+		<key>historyEventFirst</key>
+		<string>One</string>
+		<key>historyEventSecond</key>
+		<string>Two</string>
+		<key>historyEventThird</key>
+		<string>Three</string>
+		<key>historyEventFourth</key>
+		<string>Four</string>
+	</dict>
+	<key>events27</key>
+	<dict>
+		<key>historyEventFirst</key>
+		<string>One</string>
+		<key>historyEventSecond</key>
+		<string>Two</string>
+		<key>historyEventThird</key>
+		<string>Three</string>
+		<key>historyEventFourth</key>
+		<string>Four</string>
+	</dict>
+	<key>events28</key>
+	<dict>
+		<key>historyEventFirst</key>
+		<string>One</string>
+		<key>historyEventSecond</key>
+		<string>Two</string>
+		<key>historyEventThird</key>
+		<string>Three</string>
+		<key>historyEventFourth</key>
+		<string>Four</string>
+	</dict>
+	<key>events29</key>
+	<dict>
+		<key>historyEventFirst</key>
+		<string>One</string>
+		<key>historyEventSecond</key>
+		<string>Two</string>
+		<key>historyEventThird</key>
+		<string>Three</string>
+		<key>historyEventFourth</key>
+		<string>Four</string>
+	</dict>
+	<key>events30</key>
+	<dict>
+		<key>historyEventFirst</key>
+		<string>One</string>
+		<key>historyEventSecond</key>
+		<string>Two</string>
+		<key>historyEventThird</key>
+		<string>Three</string>
+		<key>historyEventFourth</key>
+		<string>Four</string>
+	</dict>
+	<key>events31</key>
+	<dict>
+		<key>historyEventFirst</key>
+		<string>One</string>
+		<key>historyEventSecond</key>
+		<string>Two</string>
+		<key>historyEventThird</key>
+		<string>Three</string>
+		<key>historyEventFourth</key>
+		<string>Four</string>
+	</dict>
+	<key>events32</key>
+	<dict>
+		<key>historyEventFirst</key>
+		<string>One</string>
+		<key>historyEventSecond</key>
+		<string>Two</string>
+		<key>historyEventThird</key>
+		<string>Three</string>
+		<key>historyEventFourth</key>
+		<string>Four</string>
+	</dict>
+	<key>events33</key>
+	<dict>
+		<key>historyEventFirst</key>
+		<string>One</string>
+		<key>historyEventSecond</key>
+		<string>Two</string>
+		<key>historyEventThird</key>
+		<string>Three</string>
+		<key>historyEventFourth</key>
+		<string>Four</string>
+	</dict>
+	<key>events34</key>
+	<dict>
+		<key>historyEventFirst</key>
+		<string>One</string>
+		<key>historyEventSecond</key>
+		<string>Two</string>
+		<key>historyEventThird</key>
+		<string>Three</string>
+		<key>historyEventFourth</key>
+		<string>Four</string>
+	</dict>
+	<key>events35</key>
+	<dict>
+		<key>historyEventFirst</key>
+		<string>One</string>
+		<key>historyEventSecond</key>
+		<string>Two</string>
+		<key>historyEventThird</key>
+		<string>Three</string>
+		<key>historyEventFourth</key>
+		<string>Four</string>
+	</dict>
+	<key>events36</key>
+	<dict>
+		<key>historyEventFirst</key>
+		<string>One</string>
+		<key>historyEventSecond</key>
+		<string>Two</string>
+		<key>historyEventThird</key>
+		<string>Three</string>
+		<key>historyEventFourth</key>
+		<string>Four</string>
+	</dict>
+	<key>events37</key>
+	<dict>
+		<key>historyEventFirst</key>
+		<string>One</string>
+		<key>historyEventSecond</key>
+		<string>Two</string>
+		<key>historyEventThird</key>
+		<string>Three</string>
+		<key>historyEventFourth</key>
+		<string>Four</string>
+	</dict>
+	<key>events38</key>
+	<dict>
+		<key>historyEventFirst</key>
+		<string>One</string>
+		<key>historyEventSecond</key>
+		<string>Two</string>
+		<key>historyEventThird</key>
+		<string>Three</string>
+		<key>historyEventFourth</key>
+		<string>Four</string>
+	</dict>
+	<key>events39</key>
+	<dict>
+		<key>historyEventFirst</key>
+		<string>One</string>
+		<key>historyEventSecond</key>
+		<string>Two</string>
+		<key>historyEventThird</key>
+		<string>Three</string>
+		<key>historyEventFourth</key>
+		<string>Four</string>
+	</dict>
+	<key>events40</key>
+	<dict>
+		<key>historyEventFirst</key>
+		<string>One</string>
+		<key>historyEventSecond</key>
+		<string>Two</string>
+		<key>historyEventThird</key>
+		<string>Three</string>
+		<key>historyEventFourth</key>
+		<string>Four</string>
+	</dict>
+</dict>
+</plist>
