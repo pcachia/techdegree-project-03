@@ -89,25 +89,18 @@ class GameManager {
     // array used to store the indexes of the previously picked up questions
     var pickedUpEvents: [Int] = []
     
-    // event rounds multi-dimensional arrays
-    var round01: [Event] = []
-    var round02: [Event] = []
-    var round03: [Event] = []
-    var round04: [Event] = []
-    var round05: [Event] = []
-    var round06: [Event] = []
-    
-    // correct answers event rounds multi-dimensional arrays
-    var round01Answers: [Event] = []
-    var round02Answers: [Event] = []
-    var round03Answers: [Event] = []
-    var round04Answers: [Event] = []
-    var round05Answers: [Event] = []
-    var round06Answers: [Event] = []
+    // array to hold 1 full round of events
+    var roundEvents: [Event] = []
+    // array to hold all rounds of events
+    var roundsEvents: [[Event]] = []
+    // array to hold all rounds of events in the correct order
+    var roundsEventsAnswers: [[Event]] = []
 
-    // var to store the total number of events that need to be picked up
-    var totalGameEvents: Int = 24
-    
+    // var to store the total number of events per round
+    var totalGameEventsPerRound: Int = 4
+    // var to store the total number of rounda
+    var totalGameRouns: Int = 6
+
     // function to get a random event that is not picked up yet
     func addToPickedUpEvents() {
         // get a random event
@@ -118,44 +111,24 @@ class GameManager {
         }
         // add picked up event index to the picked up events index array
         pickedUpEvents.append(indexOfSelectedQuestion)
-        // adding to round depending on count
-        switch pickedUpEvents.count {
-        case 1...4:
-            round01.append(events[indexOfSelectedQuestion])
-        case 5...8:
-            round02.append(events[indexOfSelectedQuestion])
-        case 9...12:
-            round03.append(events[indexOfSelectedQuestion])
-        case 13...16:
-            round04.append(events[indexOfSelectedQuestion])
-        case 17...20:
-            round05.append(events[indexOfSelectedQuestion])
-        case 21...24:
-            round06.append(events[indexOfSelectedQuestion])
-        default:
-            ()
+        // adding to round
+        roundEvents.append(events[indexOfSelectedQuestion])
+        // if round contains 4 events
+        if roundEvents.count == totalGameEventsPerRound {
+            // appends it to multidimensional array roundsEvents - roundsEvents[roundEvents]
+            roundsEvents.append(roundEvents)
+            // appends it to multidimensional array roundsEventsAnswers in the correct order - roundsEventsAnswers[roundEvents]
+            roundEvents.sort { $0.eventKey < $1.eventKey }
+            roundsEventsAnswers.append(roundEvents)
+            // empty roundEvents to start a new round
+            roundEvents = []
         }
-    }
-    
-    // function to solve all rounds 
-    func solveRoundAnswers() {
-        // getting the answers for all rounds
-        round01Answers = round01
-        round02Answers = round02
-        round03Answers = round03
-        round04Answers = round04
-        round05Answers = round05
-        round06Answers = round06
-        round01Answers.sort { $0.eventKey < $1.eventKey }
-        round02Answers.sort { $0.eventKey < $1.eventKey }
-        round03Answers.sort { $0.eventKey < $1.eventKey }
-        round04Answers.sort { $0.eventKey < $1.eventKey }
-        round05Answers.sort { $0.eventKey < $1.eventKey }
-        round06Answers.sort { $0.eventKey < $1.eventKey }
     }
     
     // function to distribute the picked up events
     func distriubtePickedUpEvents() {
+        // cariable to store the total game events
+        let totalGameEvents = totalGameRouns * totalGameEventsPerRound
         var x: Int = 0
         while x < totalGameEvents {
             addToPickedUpEvents()
@@ -163,4 +136,10 @@ class GameManager {
         }
     }
     
+    func swapValues(labelA: UILabel, labelB: UILabel) {
+        let labelAText = labelA.text
+        let labelBText = labelB.text
+        labelA.text = labelBText
+        labelB.text = labelAText
+    }
 }

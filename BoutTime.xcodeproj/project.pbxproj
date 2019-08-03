@@ -38,6 +38,9 @@
 		DAC5D5DE229E539B00A450F9 /* icon40@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = DAC5D5D7229E539B00A450F9 /* icon40@1x.png */; };
 		DAC5D5DF229E539B00A450F9 /* icon120@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DAC5D5D8229E539B00A450F9 /* icon120@3x.png */; };
 		DAC5D5E1229E8CED00A450F9 /* SoundFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC5D5E0229E8CED00A450F9 /* SoundFunctions.swift */; };
+		DAF8A3FD22F379C5007255D1 /* icon1024@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DAF8A3FC22F379C5007255D1 /* icon1024@3x.png */; };
+		DAF8A3FF22F379D9007255D1 /* icon76@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DAF8A3FE22F379D9007255D1 /* icon76@3x.png */; };
+		DAF8A40122F37A04007255D1 /* icon84@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DAF8A40022F37A04007255D1 /* icon84@3x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,7 +54,6 @@
 		DAC5D5A2229C63E200A450F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DAC5D5A8229C64E500A450F9 /* HistoryEventsDict.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = HistoryEventsDict.plist; sourceTree = "<group>"; };
 		DAC5D5AA229D1F0000A450F9 /* GameFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameFunctions.swift; sourceTree = "<group>"; };
-		DAC5D5B0229D375B00A450F9 /* GameFunctionsTestArea.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = GameFunctionsTestArea.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		DAC5D5B3229E52BF00A450F9 /* CorrectDing.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = CorrectDing.wav; sourceTree = "<group>"; };
 		DAC5D5B4229E52BF00A450F9 /* IncorrectBuzz.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = IncorrectBuzz.wav; sourceTree = "<group>"; };
 		DAC5D5B7229E532900A450F9 /* up_full_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = up_full_selected.png; sourceTree = "<group>"; };
@@ -75,6 +77,9 @@
 		DAC5D5D7229E539B00A450F9 /* icon40@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon40@1x.png"; sourceTree = "<group>"; };
 		DAC5D5D8229E539B00A450F9 /* icon120@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon120@3x.png"; sourceTree = "<group>"; };
 		DAC5D5E0229E8CED00A450F9 /* SoundFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundFunctions.swift; sourceTree = "<group>"; };
+		DAF8A3FC22F379C5007255D1 /* icon1024@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon1024@3x.png"; sourceTree = "<group>"; };
+		DAF8A3FE22F379D9007255D1 /* icon76@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon76@3x.png"; sourceTree = "<group>"; };
+		DAF8A40022F37A04007255D1 /* icon84@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon84@3x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,7 +125,6 @@
 				DAC5D5A8229C64E500A450F9 /* HistoryEventsDict.plist */,
 				DAC5D59F229C63E200A450F9 /* LaunchScreen.storyboard */,
 				DAC5D5A2229C63E200A450F9 /* Info.plist */,
-				DAC5D5B0229D375B00A450F9 /* GameFunctionsTestArea.playground */,
 			);
 			path = BoutTime;
 			sourceTree = "<group>";
@@ -160,10 +164,13 @@
 				DAC5D5D5229E539B00A450F9 /* icon29@1x.png */,
 				DAC5D5D7229E539B00A450F9 /* icon40@1x.png */,
 				DAC5D5D2229E539B00A450F9 /* icon58@2x.png */,
+				DAF8A3FE22F379D9007255D1 /* icon76@3x.png */,
 				DAC5D5D6229E539B00A450F9 /* icon80@2x.png */,
+				DAF8A40022F37A04007255D1 /* icon84@3x.png */,
 				DAC5D5D3229E539B00A450F9 /* icon87@3x.png */,
 				DAC5D5D8229E539B00A450F9 /* icon120@3x.png */,
 				DAC5D5D4229E539B00A450F9 /* icon180@3x.png */,
+				DAF8A3FC22F379C5007255D1 /* icon1024@3x.png */,
 			);
 			path = Icons;
 			sourceTree = "<group>";
@@ -227,6 +234,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DAC5D5B5229E52BF00A450F9 /* CorrectDing.wav in Resources */,
+				DAF8A40122F37A04007255D1 /* icon84@3x.png in Resources */,
 				DAC5D5C6229E532900A450F9 /* next_round_success.png in Resources */,
 				DAC5D5DF229E539B00A450F9 /* icon120@3x.png in Resources */,
 				DAC5D5CB229E532900A450F9 /* down_full.png in Resources */,
@@ -247,9 +255,11 @@
 				DAC5D5C8229E532900A450F9 /* webview_bar.png in Resources */,
 				DAC5D5C7229E532900A450F9 /* down_half_selected.png in Resources */,
 				DAC5D5CA229E532900A450F9 /* next_round_fail.png in Resources */,
+				DAF8A3FF22F379D9007255D1 /* icon76@3x.png in Resources */,
 				DAC5D5D9229E539B00A450F9 /* icon58@2x.png in Resources */,
 				DAC5D5DE229E539B00A450F9 /* icon40@1x.png in Resources */,
 				DAC5D5D0229E532900A450F9 /* down_full_selected.png in Resources */,
+				DAF8A3FD22F379C5007255D1 /* icon1024@3x.png in Resources */,
 				DAC5D59C229C63E000A450F9 /* Main.storyboard in Resources */,
 				DAC5D5C4229E532900A450F9 /* up_full_selected.png in Resources */,
 			);
